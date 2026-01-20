@@ -10,13 +10,11 @@ import java.sql.DriverManager;
 import java.sql.Statement;
 import java.util.Scanner;
 
-/**
- *
- * @author user
- */
+
 public class UpdateData {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        
         System.out.print("Enter your id: ");
         int UserIdUpdate = input.nextInt();
         

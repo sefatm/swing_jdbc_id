@@ -13,6 +13,7 @@ import java.util.Scanner;
 public class DBConnection2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        
         System.out.print("Enter your Name: ");
         String userName =sc.next();
         
@@ -41,10 +42,10 @@ public class DBConnection2 {
             } else {
                 System.out.println("Fail");
             }
-            
+            stmt.close();
         } catch (Exception e) {
-            System.out.println(e);
-            System.out.println("Successfull");
+            System.out.println("inserted fail");
+            System.out.println(e); 
         }
     }
 }
