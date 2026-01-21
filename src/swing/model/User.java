@@ -1,4 +1,4 @@
-package com.swing.model;
+package swing.model;
 
 public class User {
 

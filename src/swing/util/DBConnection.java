@@ -1,4 +1,4 @@
-package com.swing.util;
+package swing.util;
 
 import java.io.IOException;
 import java.sql.Connection;

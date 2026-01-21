@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.swing.login;
+package swing.login;
 
-import com.swing.model.User;
-import com.swing.service.UserService;
+import swing.model.User;
+import swing.service.UserService;
 import java.sql.Connection;
 import java.sql.Statement;
 import javax.swing.JOptionPane;

@@ -1,7 +1,7 @@
-package com.swing.service;
+package swing.service;
 
-import com.swing.model.User;
-import com.swing.util.DBConnection;
+import swing.model.User;
+import swing.util.DBConnection;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;
