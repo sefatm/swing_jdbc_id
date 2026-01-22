@@ -39,7 +39,18 @@ public class Insert {
             
             PreparedStatement pstmt = con.prepareStatement(sql);
             pstmt.setString(2, userName);
+            pstmt.setString(3, userSubject);
+            pstmt.setString(4, userAddress);
+            
+            int status = pstmt.executeUpdate();
+            
+            if(status > 0){
+                System.out.println("Inserted");
+            } else {
+                System.out.println("Failed");
+            }
         } catch (Exception e) {
+            e.printStackTrace();
         }
     }
 }
